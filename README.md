@@ -1,4 +1,4 @@
-# Play-store-review-analysis-EDA
+# Play-store-app-review-analysis-EDA
 
 Google play store is one of the largest and most popular Android app stores. It contains huge amount of data that can be used to make an optimal model and can be used for identification of trends and future challenges. In this EDA project we have used two raw data sets of Google Play Store one is of play store attributes and other is of user reviews from Kaggle. The first dataset contains 13 different attributes and the second dataset contains the 5 other features that can be used for data manipulation and its analysis.
 The very first and the most essential step for any EDA is data cleaning and for that purpose we have we have dropped all the duplicates the non-essential null values from different attributes. Since we have 1645 null values in our rating column and we could not drop that huge number of null values as it impacts our final results. So, we have replaced it by Mode of ratings.
