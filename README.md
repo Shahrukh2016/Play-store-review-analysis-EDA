@@ -1,27 +1,45 @@
-# Play-store-app-review-analysis-EDA
+# Google Play Store Apps Analysis
 
-Google play store is one of the largest and most popular Android app stores. It contains huge amount of data that can be used to make an optimal model and can be used for identification of trends and future challenges. In this EDA project we have used two raw data sets of Google Play Store one is of play store attributes and other is of user reviews from Kaggle. The first dataset contains 13 different attributes and the second dataset contains the 5 other features that can be used for data manipulation and its analysis.
-The very first and the most essential step for any EDA is data cleaning and for that purpose we have we have dropped all the duplicates the non-essential null values from different attributes. Since we have 1645 null values in our rating column and we could not drop that huge number of null values as it impacts our final results. So, we have replaced it by Mode of ratings.
-After dropping the null and duplicated values we saw all columns are in different format which will create problem while visualizing. To overcome this problem, we have typecasted all the columns into required format. For ex- Replaced $ from Price, replaced “+” from Installs, replaced “,” from Installs and converted it into required format. 
-With the cleaned data, we have performed Exploratory Data Analysis to understand our dataset like number of installations for each category We explore the correlation between the size of the app and the version of Android on the number of installs and so on.
-After doing some basic analysis and found some useful insights then we have merged both the data frame to find correlation between the columns of both datasets and we got very interesting results.
-1.	Doing in-depth analysis and after plotting proper visualization graphs we came to some good conclusions that reviews and installs has the positive correlation while price and rating share the negative correlation.
-2.	Category Art and Design has the maximum number of installs.
-3.	Developers and Managers should develop apps within Family and Lifestyle categories can be aimed for more profit i.e high revenue.
-4.	Almost 61% of people have positive sentiments while approx. 15% reacted negatively which is quite low in comparison (Rest are Neutral).
-5.	Compared with Free and paid apps, 92.12% apps are Free and 7.81% apps are paid. 
-6.	As Everyone content rating contains all age group people, it has maximum i.e 81.80% apps.
-7.	Maximum number of apps belong to the Family, Game and Tools category.
-8.	The category Game is a potential unsaturated space for all developers, as it has a maximum number of installs.
-9.	People love to download apps from Tools, Entertainment, Education, Business and medical genres.
-10.	Average rating of apps on the play store is 4.17 which is quite good.
-11.	Users prefer to pay for apps that are light weighted.
-12.	Paid apps that are higher in size may not perform well in the market.
-13.	Users tend to download a given app more if it has been reviewed by a large number of people.
-14.	People tend to review harsher reviews for paid apps.
-15.	There is a positive correlation between Installs and Rating. 
-16.	To develop an app which results with high rating needs to get updated with the latest version keeping it optimally sized.
-17.	It’s good to develop a free app and have a content rating for everyone.
+This repository contains an exploratory data analysis (EDA) project focused on analyzing Google Play Store apps data. The Play Store is a significant platform for Android app developers, offering vast potential for app-making businesses to thrive. By extracting actionable insights from the available data, developers can gain valuable knowledge to capture the Android market successfully.
 
-The dataset contains many possibilities to improve business values and have a good impact. It is not limited to the problem taken into consideration for this project. Many other interesting possibilities can be explored using this dataset.
-From the results and process we have implemented; we can conclude that we have achieved this group project objective which is analyzing the Google Play Store apps and determine trends of the Google Play Store and both of our research questions. Got to know many things and process about and how EDA is done.
+## Problem Statement
+The objective of this project is to explore and analyze the Google Play Store apps dataset, which includes information such as category, rating, size, and more. Additionally, a dataset containing customer reviews of the Android apps is provided. The goal is to discover key factors that contribute to app engagement and overall success.
+
+## Summary and Conclusion
+Google Play Store is renowned as one of the largest and most popular Android app stores worldwide. With its extensive collection of apps and a wealth of data, it presents an optimal opportunity for creating effective models and identifying trends and future challenges.
+
+In this EDA project, we utilized two raw datasets from Kaggle: one containing Play Store attributes and the other consisting of user reviews. The first dataset encompasses 13 different attributes, while the second dataset provides five additional features for data manipulation and analysis.
+
+To ensure data integrity, we began by performing crucial data cleaning steps. This involved removing duplicate entries and dropping non-essential null values. However, due to a large number of null values in the rating column (1645), dropping them entirely would have adversely affected our final results. Therefore, we replaced these null values with the mode of ratings.
+
+After cleaning the data, we conducted exploratory data analysis to gain a comprehensive understanding of our dataset. This involved various analyses, such as examining the number of installations for each category and exploring the correlation between app size, Android version, and the number of installs. 
+
+Furthermore, we merged both dataframes to discover correlations between the columns of the two datasets, which yielded fascinating results.
+
+Key insights and conclusions drawn from our analysis include:
+- Positive correlation between reviews and installs, while price and rating exhibit negative correlation.
+- The "Art and Design" category has the highest number of installs.
+- Developing apps within the "Family" and "Lifestyle" categories may result in higher revenue.
+- Approximately 61% of users have a positive sentiment, while only around 15% express negative sentiment.
+- Free apps account for 92.12% of the dataset, while paid apps constitute 7.81%.
+- The "Everyone" content rating category dominates, representing 81.80% of all apps.
+- The most prevalent categories on the Play Store are "Family," "Game," and "Tools."
+- "Game" category presents potential opportunities for developers due to its high number of installs.
+- Popular genres for app downloads include "Tools," "Entertainment," "Education," "Business," and "Medical."
+- The average rating of apps on the Play Store is 4.17, indicating a satisfactory overall quality.
+- Users prefer lightweight apps and may be hesitant to download larger, paid apps.
+- Apps reviewed by a larger number of people tend to be downloaded more frequently.
+- Users tend to leave harsher reviews for paid apps.
+- A positive correlation exists between installs and rating.
+- Developing an app with a high rating requires timely updates and optimal app size.
+- Developing free apps with a content rating suitable for everyone is beneficial.
+- The dataset holds immense potential for improving business value and making a positive impact. It extends beyond the specific problem addressed in this project, with numerous other interesting possibilities waiting to be explored through further analysis.
+
+By successfully achieving our project objectives and answering our research questions, we have obtained valuable insights into the Google Play Store apps ecosystem and the trends within.
+**************************************************************************************************************************************************
+Feel free to explore the repository to gain further insights into the code implementation, methodology, and findings.
+
+Connect with me on [Linkedin](https://www.linkedin.com/in/shahrukhahmad26).
+
+Happy Learning!
+**************************************************************************************************************************************************
