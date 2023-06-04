@@ -1,5 +1,7 @@
 # Google Play Store Apps Analysis
 
+![](https://media.tenor.com/8gXeiN5vTqEAAAAC/google-play-apps-google-play-services.gif)
+
 This repository contains an exploratory data analysis (EDA) project focused on analyzing Google Play Store apps data. The Play Store is a significant platform for Android app developers, offering vast potential for app-making businesses to thrive. By extracting actionable insights from the available data, developers can gain valuable knowledge to capture the Android market successfully.
 
 ## Problem Statement
@@ -37,6 +39,8 @@ Key insights and conclusions drawn from our analysis include:
 
 By successfully achieving our project objectives and answering our research questions, we have obtained valuable insights into the Google Play Store apps ecosystem and the trends within.
 **************************************************************************************************************************************************
+For complete project video explaination and to downoad the dataset: [Click here](https://drive.google.com/drive/folders/1CWDSLeQkEQWSLe6jMFfl3VBHwVpo83KN?usp=sharing)
+
 Feel free to explore the repository to gain further insights into the code implementation, methodology, and findings.
 
 Connect with me on [Linkedin](https://www.linkedin.com/in/shahrukhahmad26).
